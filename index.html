@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REPLICA: Light for the Open Index</title>
+    <style>
+      @font-face { font-family: 'Pixelify Sans'; src: url('./fonts/pixelify-sans-latin-400-normal.woff2') format('woff2'); font-weight: 400; }
+      @font-face { font-family: 'Pixelify Sans'; src: url('./fonts/pixelify-sans-latin-600-normal.woff2') format('woff2'); font-weight: 600; }
+      @font-face { font-family: 'Press Start 2P'; src: url('./fonts/press-start-2p-latin-400-normal.woff2') format('woff2'); font-weight: 400; }
+      html, body { margin: 0; height: 100%; background: #05030e; overflow: hidden; }
+      #game { width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; }
+      canvas { image-rendering: pixelated; }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
